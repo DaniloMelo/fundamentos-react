@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Fragment (){
     return (
-        <React.Fragment id="param-de-teste">
+        <React.Fragment>
             <h1>Aprendendo sobre react fragments</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
         </React.Fragment>
