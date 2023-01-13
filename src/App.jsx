@@ -8,6 +8,8 @@ import Card from './components/layout/Card'
 import Familia from './components/basics/Familia'
 import FamiliaEx2 from './components/basics/FamiliaEx2'
 import FamiliaMembroEx2 from './components/basics/FamiliaMembroEx2'
+import ListaAlunos from './components/repeticao/ListaAlunos'
+import DesafioTabelaDeProdutos from './components/repeticao/DesafioTabelaProdutos'
 
 export default () => (
     (
@@ -23,11 +25,11 @@ export default () => (
                     <Segundo tech="React" nome="Danilo" nota={10} />
                 </Card>
 
-                <Card titulo="React fragments" cor="#dd1818">
+                <Card titulo="React fragments" cor="#19471e"> 
                     <Fragment />
                 </Card>
                 
-                <Card titulo="Desafio número aleatório" cor="#19471e">
+                <Card titulo="Desafio número aleatório" cor="#dd1818">
                     <DesafioNumAleatorio min={0} max={100} />
                 </Card>
 
@@ -39,8 +41,16 @@ export default () => (
                     <FamiliaEx2 sobrenome="Marques">
                         <FamiliaMembroEx2 nome="Danilo" />
                         <FamiliaMembroEx2 nome="Romilda"/>
-                        <FamiliaMembroEx2 nome="Elias"/>
+                        <FamiliaMembroEx2 nome="Elias" />
                     </FamiliaEx2>  
+                </Card>
+
+                <Card titulo="Lista de elementos" cor="#800080">
+                    <ListaAlunos />
+                </Card> 
+
+                <Card titulo="Desafio Tabela de Produtos" cor="#dd1818">
+                    <DesafioTabelaDeProdutos />
                 </Card>
             </div>      
         </div>
