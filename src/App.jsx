@@ -10,6 +10,8 @@ import FamiliaEx2 from './components/basics/FamiliaEx2'
 import FamiliaMembroEx2 from './components/basics/FamiliaMembroEx2'
 import ListaAlunos from './components/repeticao/ListaAlunos'
 import DesafioTabelaDeProdutos from './components/repeticao/DesafioTabelaProdutos'
+import ParOuImpar from './components/renderizacaoCondicional/ParOuImpar'
+import UserInfo from './components/renderizacaoCondicional/UserInfo'
 
 export default () => (
     (
@@ -33,11 +35,11 @@ export default () => (
                     <DesafioNumAleatorio min={0} max={100} />
                 </Card>
 
-                <Card titulo="Componentes com filhos Exemplo 1" cor="#f7971e">
+                <Card titulo="Componentes com filhos - Exemplo 1" cor="#f7971e">
                     <Familia sobrenome="Marques"/>  
                 </Card>
 
-                <Card titulo="Componentes com filhos Exemplo 2" cor="#f7971e">
+                <Card titulo="Componentes com filhos - Exemplo 2" cor="#f7971e">
                     <FamiliaEx2 sobrenome="Marques">
                         <FamiliaMembroEx2 nome="Danilo" />
                         <FamiliaMembroEx2 nome="Romilda"/>
@@ -51,6 +53,14 @@ export default () => (
 
                 <Card titulo="Desafio Tabela de Produtos" cor="#dd1818">
                     <DesafioTabelaDeProdutos />
+                </Card>
+
+                <Card titulo="Renderização Condicional - Exemplo 1" cor="#0f9b0f">
+                    <ParOuImpar num={11} />
+                </Card>
+
+                <Card titulo="Renderização Condicional - Exemplo 2" cor="#0f9b0f">
+                    <UserInfo user={{name: "Danilo"}} />
                 </Card>
             </div>      
         </div>
