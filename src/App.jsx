@@ -15,6 +15,7 @@ import UserInfo from './components/renderizacaoCondicional/UserInfo'
 import ComunicacaoDireta from './components/comunicaoDiretaEIndireta/DiretaPai'
 import ComunicacaoIndireta from './components/comunicaoDiretaEIndireta/IndiretaPai'
 import ComponentesComEstado from './components/componentesComEstado/ComponentePai'
+import ComponenteControlado from './components/componenteControlado/Formulario'
 
 export default () => (
     (
@@ -76,6 +77,10 @@ export default () => (
 
                 <Card titulo="Comunicação Indireta com estados (useState)" cor="#aa9de3">
                     <ComponentesComEstado />
+                </Card>
+
+                <Card titulo="Comunicação Indireta com estados (useState)" cor="">
+                    <ComponenteControlado />
                 </Card>
 
             </div>      
