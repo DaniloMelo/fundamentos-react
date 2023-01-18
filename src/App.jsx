@@ -14,6 +14,7 @@ import ParOuImpar from './components/renderizacaoCondicional/ParOuImpar'
 import UserInfo from './components/renderizacaoCondicional/UserInfo'
 import ComunicacaoDireta from './components/comunicaoDiretaEIndireta/DiretaPai'
 import ComunicacaoIndireta from './components/comunicaoDiretaEIndireta/IndiretaPai'
+import ComponentesComEstado from './components/componentesComEstado/ComponentePai'
 
 export default () => (
     (
@@ -71,6 +72,10 @@ export default () => (
 
                 <Card titulo="Comunicação Indireta" cor="#aa9de3">
                     <ComunicacaoIndireta />
+                </Card>
+
+                <Card titulo="Comunicação Indireta com estados (useState)" cor="#aa9de3">
+                    <ComponentesComEstado />
                 </Card>
 
             </div>      

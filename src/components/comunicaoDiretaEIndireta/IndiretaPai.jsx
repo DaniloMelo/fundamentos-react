@@ -25,6 +25,6 @@ Essa callBack é chamada quando ocorrer algum evento no filho e a funcao é reto
 
 Observação:
 Não conseguimos exibir estes dados na tela, somente no console devido ao react trabalhar com estados em seus componentes.
-Para o componnte exibir algo na tela, ele precisa ser informado que seu estado mudou, para isso usamos o hook useState.
+Para o componnte exibir algo na tela, ele precisa ser informado que seu estado mudou, para isso usamos o hook useState. Veja ComponentesComEstado.
 
 */
