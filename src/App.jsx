@@ -12,6 +12,8 @@ import ListaAlunos from './components/repeticao/ListaAlunos'
 import DesafioTabelaDeProdutos from './components/repeticao/DesafioTabelaProdutos'
 import ParOuImpar from './components/renderizacaoCondicional/ParOuImpar'
 import UserInfo from './components/renderizacaoCondicional/UserInfo'
+import ComunicacaoDireta from './components/comunicaoDiretaEIndireta/DiretaPai'
+import ComunicacaoIndireta from './components/comunicaoDiretaEIndireta/IndiretaPai'
 
 export default () => (
     (
@@ -62,6 +64,15 @@ export default () => (
                 <Card titulo="Renderização Condicional - Exemplo 2" cor="#0f9b0f">
                     <UserInfo user={{name: "Danilo"}} />
                 </Card>
+
+                <Card titulo="Comunicação Direta" cor="#aa9de3">
+                    <ComunicacaoDireta />
+                </Card>
+
+                <Card titulo="Comunicação Indireta" cor="#aa9de3">
+                    <ComunicacaoIndireta />
+                </Card>
+
             </div>      
         </div>
     )
