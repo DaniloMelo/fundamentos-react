@@ -5,8 +5,6 @@ export default props => {
     const [nome, setNome] = useState('')
     const [nota, setNota] = useState('')
 
-    console.log(typeof(useState))
-
     function callBack (nome, nota){
         setNome(nome)
         setNota(nota)

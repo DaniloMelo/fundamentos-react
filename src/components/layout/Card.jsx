@@ -4,8 +4,8 @@ import React from 'react'
 export default props => {
 
     const cardColor = {
-        backgroundColor: props.cor || "#f00",
-        borderColor: props.cor || "#f00",
+        backgroundColor: props.cor || "#000",
+        borderColor: props.cor || "#000",
     }
 
     return (

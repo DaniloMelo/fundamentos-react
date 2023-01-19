@@ -16,6 +16,7 @@ import ComunicacaoDireta from './components/comunicaoDiretaEIndireta/DiretaPai'
 import ComunicacaoIndireta from './components/comunicaoDiretaEIndireta/IndiretaPai'
 import ComponentesComEstado from './components/componentesComEstado/ComponentePai'
 import ComponenteControlado from './components/componenteControlado/Formulario'
+import Contador from './components/componentesComClasses/Contador'
 
 export default () => (
     (
@@ -79,8 +80,12 @@ export default () => (
                     <ComponentesComEstado />
                 </Card>
 
-                <Card titulo="Comunicação Indireta com estados (useState)" cor="">
+                <Card titulo="Componente Controlado" cor="#cac531">
                     <ComponenteControlado />
+                </Card>
+
+                <Card titulo="Conponente Com Classes - ex contador" cor="#000c40">
+                    <Contador valorInicial={10} />
                 </Card>
 
             </div>      
