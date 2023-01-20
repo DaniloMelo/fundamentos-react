@@ -17,6 +17,7 @@ import ComunicacaoIndireta from './components/comunicaoDiretaEIndireta/IndiretaP
 import ComponentesComEstado from './components/componentesComEstado/ComponentePai'
 import ComponenteControlado from './components/componenteControlado/Formulario'
 import Contador from './components/componentesComClasses/Contador'
+import DesafioMega from './components/desafioMega/mega'
 
 export default () => (
     (
@@ -86,6 +87,10 @@ export default () => (
 
                 <Card titulo="Conponente Com Classes - ex contador" cor="#000c40">
                     <Contador valorInicial={10} />
+                </Card>
+
+                <Card titulo="Desafio Mega-Sena" cor="#dd1818">
+                    <DesafioMega />
                 </Card>
 
             </div>      
